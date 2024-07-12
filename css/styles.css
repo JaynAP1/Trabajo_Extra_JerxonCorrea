@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7vw;
+}
+.Conten1{
+    margin: 1.6em 10vw 0em 0em;
+    width: 24em;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Conten1 a{
+    text-decoration: none;
+    color: white;
+    transition: 300ms all ease;
+}
+.Conten1 a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.Conten2{
+    margin-top: 2em;
+    font-size: 1.5em;
+    text-align: center;
+}
+.Conten2 img{
+    width: 14em;
+}
+.Conten2 a{
+    font-size: 0.5em;
+    background-color: rgb(185, 127, 19);
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 2em;
+}
+.Conten3{
+    margin-top: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Conten3 .Text{
+    width: 35em;
+    margin-top: 4em;
+}
+.Text h1{
+    font-size: 3.5em ;
+}
+.Text a{
+    font-size: 0.8em;
+    background-color: rgb(185, 127, 19);
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 2em;
+}
+.Conten3 img{
+    width: 35em;
+}
+.Conten4{
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Text2{
+    width: 30em;
+}
+.Text2 h1{
+    font-size: 2.7em;
+}
+.Text2 a{
+    font-size: 0.8em;
+    background-color: rgb(185, 127, 19);
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 2em;
+}
+.Conten4 img{
+    width: 20em;
+}
+.Conten5 h1{
+    font-size: 3em;
+    margin-left: 1em;
+}
+
+.Product{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 7em;
+}
+.P1{
+    border: 2px solid rgb(185, 127, 19);
+    width: 15em;
+    height: 22em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+.P1 a{
+    font-size: 0.8em;
+    background-color: rgb(185, 127, 19);
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 2em;
+}
+
+.P1 img{
+    width: 6em;
+    margin-top: -3em;
+
+}
+.P2{
+    border: 2px solid rgb(185, 127, 19);
+    width: 15em;
+    height: 22em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+.P2 a{
+    font-size: 0.8em;
+    background-color: rgb(185, 127, 19);
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 2em;
+}
+
+.P2 img{
+    width: 6em;
+    margin-top: -3em;
+
+}
+.P3{
+    border: 2px solid rgb(185, 127, 19);
+    width: 15em;
+    height: 22em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.P3 a{
+    font-size: 0.8em;
+    background-color: rgb(185, 127, 19);
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 2em;
+}
+
+.P3 img{
+    width: 6em;
+    margin-top: -3em;
+
+}
+.Conten6 h1{
+    color: rgb(185, 127, 19);
+}
+.ACO{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    flex-wrap: wrap;
+}
+.About{
+    width: 20em;
+}
+.Ye{
+    color: rgb(185, 127, 19) ;
+}
+.Contact{
+    width: 20em;
+}
+.Opening{
+    width: 20em;
+}
+@media screen and (max-width:1135px){
+    .Text{
+        margin-top: 0em;
+        text-align: center;
+    }
+}
+@media screen and (max-width:895px){
+    .Text2{
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    .Conten4 img{
+     margin-left: 4em   
+    };
+}
